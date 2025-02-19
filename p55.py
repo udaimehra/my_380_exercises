@@ -1,0 +1,5 @@
+info = (('Monica', 19), ('Tom', 21), ('John', 18))
+sorted_asc=tuple(sorted(info, key = lambda x: x[1]))
+sorted_dsc=tuple(sorted(info, key = lambda y: y[0], reverse = True))
+print(f'Ascending: {sorted_asc}')
+print(f'Descending: {sorted_dsc}')
